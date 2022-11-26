@@ -41,10 +41,10 @@ $(document).ready(function() {
 document.addEventListener('visibilitychange',
     function() {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Shivam Agarwal";
+            document.title = "Portfolio | Udit";
             $("#favicon").attr("href", "assests/images/favicon2.png");
         } else {
-            document.title = "Welcome Again";
+            document.title = "Welcome Udit";
 
         }
     });
